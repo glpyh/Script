@@ -8,7 +8,7 @@
 [rewrite_local]
 ^https?:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/ url script-response-body https://raw.githubusercontent.com/osinx/Script/main/vip/streamMusic.js
 
-[Mitm]
+[MITM]
 hostname = play.aqzscn.cn
 */
 
