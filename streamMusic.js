@@ -6,7 +6,7 @@
 #!icon = https://raw.githubusercontent.com/osinx/Script/main/icon/streamMusic.png
 
 [rewrite_local]
-^https?:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/ url script-response-body https://raw.githubusercontent.com/osinx/Script/main/vip/streamMusic.js
+^https:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/ url script-response-body https://github.com/glpyh/Script/blob/main/streamMusic.js
 
 [MITM]
 hostname = play.aqzscn.cn
